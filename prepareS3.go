@@ -21,10 +21,6 @@ const inputBucket = "inputyoutubebucket"
 var countries = [11]string{"BR", "CA", "RU", "GB", "KR", "JP", "DE", "MX", "IN", "US", "FR"}
 
 func main() {
-	// Specify your AWS region and S3 bucket name
-	//s3Path := "azureresult/BR/" // Replace with the desired S3 path
-	//	s3ObjectKey := "azureresult/BR/"
-
 	fmt.Println(os.Args)
 	switch os.Args[1] {
 	case "uploadInput":
